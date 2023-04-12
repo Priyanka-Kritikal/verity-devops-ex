@@ -19,13 +19,7 @@ pipeline {
                 sh 'mvn compile'
             }
         }
-//Code starts for stage PMD
-		stage('PMD') {
-            steps {
-                sh 'mvn site'
-            }
-        }
-		//Code ends for stage PMD
+
 		
 		//Code ends for stage Compile
 
