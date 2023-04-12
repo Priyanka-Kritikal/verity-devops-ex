@@ -21,7 +21,7 @@ pipeline {
         }
 
 		
-		//Code ends for stage Compile
+		//Code ends for stage Compil
 
 //Code starts for stage Code Analysis
 		stage('Code Analysis') {
